@@ -13,4 +13,4 @@ Please take a look at the wiki for a detailed guide.
 
 If the Lambda Function completes successfully, a new entry will be added to the DynamoDB table lambda-reimbursment.
 LambdaSendMail gets triggered by the DynamoDB stream (pull model) and sends an e-mail with the info that has been added to the table.
-If you have received the e-mail and click on the approval URL in the e-mail body, the LambdaApproval Function will be called and add an "approved" column entry to DynamoDB.
+If you have received the e-mail and click on the approval URL in the e-mail body, the LambdaApproval Function will be called and add an "approved" column entry to DynamoDB
